@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,35 +6,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Total Projects</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            gap: 25px;
+        }
+
+        .card {
+            flex: 1;
+            background-color: white;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .card h2 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        .project {
+            margin-bottom: 18px;
+        }
+
+        .project h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Todo App</h1>
-    <a href="https://velix-todo-app.vercel.app/">https://velix-todo-app.vercel.app/</a>
 
-    <h1>Velix Restaurant</h1>
-    <a href="https://velix-restaurant.vercel.app/">https://velix-restaurant.vercel.app/</a>
+    <h1>My Total Projects</h1>
 
-    <h1>Velix Shop</h1>
-    <a href="https://velix-shop.vercel.app/">https://velix-shop.vercel.app/</a>
+    <div class="container">
 
-    <h1>Movies Hub</h1>
-    <a href="https://movies-hub-pi-two.vercel.app/">https://movies-hub-pi-two.vercel.app/</a>
+        <!-- Card 1 -->
+        <div class="card">
 
-    <h1>Velix Gym</h1>
-    <a href="https://my-gym-project-seven.vercel.app/">https://my-gym-project-seven.vercel.app/</a>
+            <h2>Projects Made In Lectures</h2>
 
-    <h1>Tailwind Portfolio</h1>
-    <a href="https://my-tailwind-learning-portfolio.vercel.app/">https://my-tailwind-learning-portfolio.vercel.app/</a>
+            <div class="project">
+                <h3>Velix Co</h3>
+                <a href="https://velix-co.vercel.app/">HTML-CSS-Project</a>
+            </div>
 
-    <h1>Velix Calculator</h1>
-    <a href="https://velix-calculator.vercel.app/">https://velix-calculator.vercel.app/</a>
+            <div class="project">
+                <h3>Tailwind Portfolio</h3>
+                <a href="https://my-tailwind-learning-portfolio.vercel.app/">Tailwind-Portfolio</a>
+            </div>
 
-    <h1>Velix Co</h1>
-    <a href="https://velix-co.vercel.app/">https://velix-co.vercel.app/</a>
+            <div class="project">
+                <h3>Todo App</h3>
+                <a href="https://velix-todo-app.vercel.app/">JS Project-1</a>
+            </div>
 
-    <h1>Velix Recipe Finder</h1>
-    <a href="https://velix-recipe-finder.vercel.app/">https://velix-recipe-finder.vercel.app/</a>
+            <div class="project">
+                <h3>Velix Shop</h3>
+                <a href="https://velix-shop.vercel.app/">JS Project-2</a>
+            </div>
+
+            <div class="project">
+                <h3>Movies Hub</h3>
+                <a href="https://movies-hub-pi-two.vercel.app/">JS Project-3</a>
+            </div>
+
+            
+
+            <div class="project">
+                <h3>Velix Recipe Finder</h3>
+                <a href="https://velix-recipe-finder.vercel.app/">React Project-1</a>
+            </div>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+
+            <h2>Projects Made By Myself</h2>
+
+            <div class="project">
+                <h3>Velix Restaurant</h3>
+                <a href="https://velix-restaurant.vercel.app/">Tailwind Practice Project-1</a>
+            </div>
+
+            <div class="project">
+                <h3>Velix Gym</h3>
+                <a href="https://my-gym-project-seven.vercel.app/">Tailwind Practice Project-2</a>
+            </div>
+
+            <div class="project">
+                <h3>Velix Calculator</h3>
+                <a href="https://velix-calculator.vercel.app/">JavaScript Practice Project</a>
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
-
 </html>
